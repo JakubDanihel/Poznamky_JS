@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- aaaa -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poznamky blog</title>
+
+    <!-- kniznica pre ikony -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- kniznica pre premenenie textu na html pole marked_v1.1.1 (nie najlepsia volba verzie... marked_v4.0.18 nefunguje z mne nepochopitelneho dovodu)
+    edit: v index.js malo byt spravne 
+    main.innerHTML = marked.parse(value) 
+    nie 
+    main.innerHTML = marked(value) (pre verziu 1.1.1 - read.me genius)
+    Chyba bola sposobena pri pisani prikazu na oznacenie toho co treba nie chybnou verziou
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.18/marked.min.js" integrity="sha512-6MhVG3FdJSogKdAFmdGWvJ/QCBTPhs0dd3ad89H+ZVGJ721bOo2CTlaiG4Ov6l422KGQStYrfOD4HASBvO6sZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src = "index.js" defer></script>
+</head>
+<body>
+            <button class = "addBtn" id="addBtn"> <i class="fa-solid fa-circle-plus"></i></button>
+</body>
+</html>

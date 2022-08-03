@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(36, 214, 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0;
+}
+
+.poznamky{
+    background-color: white;
+
+    margin: 24px;
+    width: 512px;
+    height: 512px;
+}
+
+.poznamky .nastroje{
+    background-color: aqua;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.poznamky .nastroje button{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+
+}
+
+.addBtn{
+    cursor: pointer;
+
+    position: fixed;
+    padding: 0.25rem;
+    font-size: 2rem;
+    top: 0.5rem;
+    right: 0.5rem;
+
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.poznamky .main{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.poznamky textarea{
+    outline: none;
+    font-family: "Times New Roman";
+    font-size: 24px;
+
+    width: 100%;
+    height: 512px;
+    border: none;
+    width: 100%;
+}
+
+.poznamky .hidden{
+    display: none;
+}
